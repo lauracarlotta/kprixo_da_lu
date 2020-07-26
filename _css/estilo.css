@@ -1,9 +1,125 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Indie+Flower&family=Sacramento&family=Special+Elite&display=swap');
 
 body {
     background-color: #f1f5f4;
 }
 
+img#borboleta-cabecalho {
+    width: 90px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -15px;
+}
+
+img#pincel-roxo {
+    width: 100px;
+    margin-left: 365px;
+    margin-top: -50px;
+    padding-top: 50px;
+}
+
+img#pincel-azul {
+    width: 100px;
+    position: absolute;
+    left: 400px;
+    top: 25px;
+}
+
+.titulo{
+    font-family: 'Great Vibes', cursive;
+    font-size: 63px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .4);
+    margin-top: -70px;
+    padding-top: 5px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.titulo2 {
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .4);
+    margin-top: -30px;
+    padding-top: -20px;
+
+}
+
+img#tinta-azul {
+    position: absolute;
+    width: 200px;
+    left: 1115px;
+    top: 70px;
+}
+
+div#interface {
+    width: 1350px;
+    margin: auto;
+}
+
 header {
     background-color: #D8BFD8;
+    margin-top: -21px;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    margin-left: 22px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .4);
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+    position: absolute;
+    top: -20px;
+    left: 480px;
+}
+
+nav#menu li{
+    display: inline-block;
+    position: relative;
+    color: #f1f5f4;
+    font-family: 'Special Elite', cursive;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .4);
+    background-color: #473C8B;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+    margin: 4px;
+    padding: 5px;
+    font-size: 17pt;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: #f1f5f4;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #4876FF;
+}
+
+article#principal {
+    display: block;
+    width: 820px;
+    float: left
+}
+
+aside#lucimar {
+    display: block;
+    width: 520px;
+    float: right;
+}
+
+footer#rodape {
+    clear: both;
+    text-align: center;
 }
