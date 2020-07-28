@@ -6,53 +6,60 @@
     <title>Kprixo da Lu</title>
     <link rel="stylesheet" href="_css/estilo.css">
 </head>
-
+<script language="JavaScript" src="_javascript/funcoes.js"></script>
 <body>
     <div id="interface">
     <header>
         <hgroup>
             <img src="_imagens/borboleta.png" id="borboleta-cabecalho"/>
-            <img src="_imagens/pincel-roxo.png" id="pincel-roxo"/>
-            <img src="_imagens/pincel-azul.png" id="pincel-azul"/>            
+            <img src="_imagens/pincel-roxo.png" id="pincel-roxo"/> 
+            <img src="_imagens/pincel-azul.png" id="pincel-azul"/> 
+
             <h1 class="titulo">Kprixo da Lu</h1>
             <h2 class="titulo2">Pra quem ama artesanato, reciclagem  e  D i y</h2>
         </hgroup>
 
-        <img src="_imagens/tinta-azul.png" id="tinta-azul"/>
+        <img src="_imagens/cores.png" id="cores"/>
 
         <nav id="menu">
             <h1>Menu Principal</h1>
             <ul type="square">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="madeira.html">Madeira</a></li>
-                <li><a href="reciclagem.html">Reciclagem</a></li>
-                <li><a href="diy.html">DIY</a></li>
-                <li><a href="galeria-de-imagens.html">Galeria de imagens</a></li>
-                <li><a href="fale-conosco.html">Contato</a></li> <!-- Fale conosco-->
+                <li onmouseover="mudaFoto('_imagens/heart.png')" onmouseout="mudaFoto('_imagens/cores.png')"><a href="index.html">Home</a></li>
+                <li onmouseover="mudaFoto('_imagens/madeira.png')" onmouseout="mudaFoto('_imagens/cores.png')"><a href="madeira.html">Madeira</a></li>
+                <li onmouseover="mudaFoto('_imagens/vaso-flor.png')" onmouseout="mudaFoto('_imagens/cores.png')"><a href="reciclagem.html">Reciclagem</a></li>
+                <li onmouseover="mudaFoto('_imagens/quadro.png')" onmouseout="mudaFoto('_imagens/cores.png')"><a href="diy.html">Tela</a></li>
+                <li onmouseover="mudaFoto('_imagens/maquina-fotografica.png')" onmouseout="mudaFoto('_imagens/cores.png')"><a href="galeria-de-imagens.html">Galeria de imagens</a></li>
+                <li onmouseover="mudaFoto('_imagens/telefone.png')" onmouseout="mudaFoto('_imagens/cores.png')"><a href="fale-conosco.html">Contato</a></li> <!-- Fale conosco-->
             </ul>
         </nav>
     </header>
 
-    <section>
+    <section id="corpo">
         <article id="principal">
                 <header>
-                    <h2>Sobre o Kprixo</h2>
+                    <h2 class="cabecalho-article">Sobre o Kprixo</h2>
                 </header>
+
                 <p>Os materias aqui utilzados são fabricados em mdf</p>            
         </article>
     </section>
-
         <aside id="lucimar">
-            <header>
-                <h2>Sobre a Lu</h2>
-            </header>
-            <p>Quando comecei a me aventurar na pintura em madeira, não achei que fosse gostar tanto!</p>
+                <header>
+                    <h2 class="cabecalho-aside">Sobre a Lu</h2>
+                </header>
+                    <img id="lu" src="_imagens/lu.png">
+                    <p>Quando comecei a me aventurar na pintura em madeira, não achei que fosse gostar tanto!</p>
+                
+                <h2>Pensamento do Dia</h2>
+                <p>Texto abaixo</p>
         </aside>
     </div>
 
     <footer id="rodape">
-        <p>Criado por Laura Carlotta - iniciado em 25/07/2020</p>
-        Facebook | Instagram
+        <p class="rodape">Criado por Laura Carlotta - iniciado em 25/07/2020<br/>
+            <a href="https://www.facebook.com/lucimar.custodio.12">Facebook</a> | 
+            <a href="https://www.instagram.com/kprixodalu/?hl=pt-br">Instagram</a>
+        </p>
     </footer>
 
 </body>
